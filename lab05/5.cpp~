@@ -1,0 +1,40 @@
+// Programmer: Alain Markus P. Santos-Tankia    Date: 9/20/16
+// File: 5.cpp                               Class: CS1580
+// Student Id: 12454208                      Section: B
+/*Description
+   
+*/
+
+/*
+#include <iostream>
+#include <time.h>
+using namespace std;
+int main()
+{
+  srand(time(NULL)); 
+
+  int num_Rand;
+  for(int i=0;i<25;i++)
+  {
+  	num_Rand= rand()%7+1;
+    //switch()
+  }
+  
+  
+  
+  return 0;
+}
+*/
+#include <iostream>
+#include <ctime>
+using namespace std;
+int main()
+{
+  srand(time(NULL));
+  cout << rand() << endl;
+  cout << rand() << endl;
+  cout << rand() << endl;
+  cout << rand() << endl;
+  cout << rand() << endl;
+  return 0;
+}

@@ -1,0 +1,21 @@
+// Programmer: Alain Markus P. Santos-Tankia    Date: 10/11/16
+// File: main.cpp                               Class: CS1580
+// Student Id: 12454208                      Section: B
+/*Description
+
+*/
+#include "header.h"
+
+int main()
+{
+  triangle tri;
+  point center;
+
+  greetings();
+  getPoint(tri);
+  outputPoints(tri);
+  center= calculateTriangleCenter(tri);
+  displayCenter(center.x,center.y);  
+  return 0;
+
+}

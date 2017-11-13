@@ -1,0 +1,45 @@
+
+*** These modified files were found in JOE when it aborted on Tue Aug 23 12:42:14 2016
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+*** File 'lab1.cpp'
+/*
+Programmer: Alain Markus (Marky) Santos-Tankia
+Instructor: Ashik
+Section: B
+Date:8/23/16
+Description: "Print a text on the screen."
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  cout<<"Hello, world!"<<endl;
+  cout<<"My Name is Marky Santos-Tankia"<<endl;
+  return 0;
+}
+
+*** File '(Unnamed)'
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp
+lab1.cpp

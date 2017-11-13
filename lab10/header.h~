@@ -1,0 +1,38 @@
+// Programmer: Alain Markus P. Santos-Tankia    Date: 10/19/16
+// File: header.h                          Class: CS1580
+// Student Id: 12454208                      Section: B
+/*Description
+		Header file of the Student Database
+		Contains Protoypes,structs,etc.
+*/
+#ifndef HEADER_H
+#define HEADER_H
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+const int studentSize=7;
+
+void greetings();
+/*Description: Greets User.
+  Pre: None
+  Post: Message outputs to the screen.*/
+
+void goodbye();
+/*Description: Sends off User.
+ Pre: None
+ Post: Message outputs to the screen.*/
+
+void getInput(char name []);
+/*Description
+ Pre:
+ Post:*/
+void encrypt(char name[ ]);
+void showOutput(char name[ ]);
+/*Description
+ Pre:
+ Post:*/
+
+
+#endif

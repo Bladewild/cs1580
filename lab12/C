@@ -1,0 +1,53 @@
+// Programmer: Alain Markus P. Santos-Tankia    Date: 11/8/16
+// File: main.cpp                               Class: CS1580
+// Student Id: 12454208                      Section: B
+/*Description
+   Thanksgiving Inviter main.
+   Prints out invitations to output.dat.
+   Prints out # of guests and Turkey needed.
+*/
+#include "header.h"
+
+int main()
+{
+
+  greetings();
+
+
+  Student s1;
+  s1.name="Marky Santos-Tankia";
+  cout<<"Your Name: "<<s1.name<<endl;
+
+  int userInputEdit, userInputModify;
+  int modify;// Variable work
+  do
+  {
+  	cout<<"---> Press 1 if you want to edit"
+	      <<" marks or press anything if u want"
+		    <<" to exit...";
+    cin>>userInputEdit;
+	if(userInputEdit!=1)
+	{
+		cout<<" Press 1 again if you want to increase"
+			  <<" marks or press anything if u want to decrease...";
+    cin>>userInputModify;
+    if(userInputModify==1)
+    {
+      cout<<"How much do you want to increase...";
+      cin>>modify;
+      s1.editMarks(modify,true);
+    }
+    else
+    {
+      cout<<"How much do you want to decrease...";
+      cin>>modify;
+      s1.editMarks(modify,false);
+    }
+	}
+  }while(userInputEdit==1);
+
+  goodbye();
+
+  return 0;
+
+}
